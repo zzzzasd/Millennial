@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My First Post
+categories: facts
 ---
 Gary loves eating pineapples and likes the toughness of the formation of the pineapple fruit – the spiky leaves and the rough body, while the fruit is juicy with an irresistible nice taste of sour and sweetness at the same time. and it has a crown on the fruit! 
 
