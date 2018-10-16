@@ -1,5 +1,6 @@
 ---
 layout: post
+image: /uploads/image79.jpeg
 title: My First Post
 categories: facts
 ---
