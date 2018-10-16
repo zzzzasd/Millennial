@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Learning Resources"
-author: "Paul Le"
+client: "Gary Lim"
 categories: facts
 tags: [documentation,sample]
 image: arctic-4.jpg
