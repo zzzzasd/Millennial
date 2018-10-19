@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to Millennial!"
+title: "Welcome to IGL Design!"
 author: "Paul Le"
 categories: documentation
 tags: [documentation,sample]
