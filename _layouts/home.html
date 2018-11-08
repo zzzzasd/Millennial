@@ -6,7 +6,7 @@ title: Home
 <section class="section">
   {% for post in paginator.posts %}
   <a href="{{ site.github.url }}{{ post.url }}">
-    <div class="column is-10 is-offset-1 home-banner" {% if post.image %}style="background-image:url({{ site.github.url }}{{ post.image }})"{% endif %}>
+    <div class="column is-8 is-offset-2 home-banner" {% if post.image %}style="background-image:url({{ site.github.url }}{{ post.image }})"{% endif %}>
       <div class="container" >
         <h2><span>{{ post.title }}</span></h2>
       </div>
@@ -16,16 +16,16 @@ title: Home
 </section>
 
 <!-- Pagination links -->
-<div class="pagination">
+<div class="pagination column is-8 is-offset-2">
   {% if paginator.next_page %}
-    <a class="pagination-button pagination-active" href="{{ site.github.url }}{{ paginator.next_page_path }}" class="next">{{ site.data.settings.pagination.previous_page }}</a>
+    <a class=" pagination-active button is-medium" href="{{ site.github.url }}{{ paginator.next_page_path }}" class="next">{{ site.data.settings.pagination.previous_page }}</a>
   {% else %}
-    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
+    <span class="button is-medium">{{ site.data.settings.pagination.previous_page }}</span>
   {% endif %}
 
   {% if paginator.previous_page %}
-    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
+    <a class="pagination-active button is-medium" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
     {% else %}
-      <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
+      <span class="button is-medium">{{ site.data.settings.pagination.next_page }}</span>
   {% endif %}
 </div>
