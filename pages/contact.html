@@ -3,21 +3,24 @@ layout: misc
 title: Contact
 ---
 
-<form>
-    <div class="row">
-      <div class="six columns">
-        <label for="exampleEmailInput">Your email</label>
-        <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
-      </div>
-      <div class="six columns">
-        <label for="exampleRecipientInput">Reason for contacting</label>
-        <select class="u-full-width" id="exampleRecipientInput">
-          <option value="Option 1">Commission Project</option>
-          <option value="Option 2">Inquiry</option>
-        </select>
-      </div>
-    </div>
-    <label for="exampleMessage">Message</label>
-    <textarea class="u-full-width" placeholder="Hi Gary …" id="exampleMessage"></textarea>
-    <input class="button-primary" type="submit" value="Submit">
+<form name="contact" method="POST" netlify>
+    <p>
+      <label>Your Name: <input type="text" name="contactForm" /></label>   
+    </p>
+    <p>
+      <label>Your Email: <input type="email" name="inquiryEmail" /></label>
+    </p>
+    <p>
+      <label>Inquiry: <select name="inquiry[]" multiple>
+        <option value="commission">Commission Project</option>
+        <option value="artwork">Art Work</option>
+        <option value="others">Others</option>          
+      </select></label>
+    </p>
+    <p>
+      <label>Message: <textarea name="inquiryMessage"></textarea></label>
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
   </form>
