@@ -1,26 +1,42 @@
 ---
 layout: misc
-title: Contact
+title: 
 ---
-
-<form name="contact" method="POST" netlify>
-    <p>
-      <label>Your Name: <input type="text" name="contactForm" /></label>   
-    </p>
-    <p>
-      <label>Your Email: <input type="email" name="inquiryEmail" /></label>
-    </p>
-    <p>
-      <label>Inquiry: <select name="inquiry[]" multiple>
-        <option value="commission">Commission Project</option>
-        <option value="artwork">Art Work</option>
-        <option value="others">Others</option>          
-      </select></label>
-    </p>
-    <p>
-      <label>Message: <textarea name="inquiryMessage"></textarea></label>
-    </p>
-    <p>
-      <button type="submit">Send</button>
-    </p>
-  </form>
+<div class="column is-8 is-offset-2">
+  <h1 class="title">Contact me regarding any inquiries</h1>
+  <form name="contact" method="POST" netlify>
+      <div class="field">
+        <label class="label">Your Name: <input class="input" type="text" name="contactForm" /></label>   
+      </div>
+      <div class="field">
+        <label class="label">Your Email: <input class="input" type="email" name="inquiryEmail" /></label>
+      </div>
+      <div class="field">
+          <label class="label">Your Phone Number: <input class="input" type="text" name="phoneNumber" /></label>
+      </div>
+      <div class="field">
+        <label class="label">Inquiry: </label>
+        <div class="control">
+          <div class="select" name="inquiry[]" multiple>
+            <select>
+              <option value="commission">Commission Project</option>
+              <option value="artwork">Art Work</option>
+              <option value="others">Others</option>
+            </select>          
+          </div>
+        </div>
+      </div>
+      <div class="field">
+        <label class="label">Message: <textarea class="textarea" name="inquiryMessage"></textarea></label>
+      </div>
+      <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-link" type="submit">Submit</button>
+          </div>
+          <div class="control">
+            <button class="button is-text">Cancel</button>
+          </div>
+        </div>
+    </form>
+</div>
+  
