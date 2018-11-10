@@ -16,22 +16,25 @@
       <a class="navbar-item" href="/">
         Home
       </a>
-
+      
       <a class="navbar-item" href="/pages/sculptures.html">
         Sculptures
       </a>
-
+      
       <a class="navbar-item" href="/pages/paintings.html">
         Paintings
       </a>
-
+      
       <a class="navbar-item" href="/pages/about.html">
         About
       </a>
-
-      <a class="navbar-item" href="/_pages/about.html">
-        Contact
+      
+      {% for item in site.data.settings.menu %}
+      <a class="navbar-item" href="{{ site.github.url }}/{{ item.folder }}/{{ item.file }}" class="menu-link">
+        {{ item.name }}
       </a>
+      {% endfor %}
+
     </div>
   </div>
 </nav>

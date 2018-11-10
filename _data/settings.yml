@@ -6,12 +6,12 @@ disqus:
 google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'Sculptures', folder: 'pages', file: 'sculptures.html'}
-- {name: 'Paintings', folder: 'pages', file: 'paintings.html'}
+# - {name: 'Sculptures', folder: 'pages', file: 'sculptures.html'}
+# - {name: 'Paintings', folder: 'pages', file: 'paintings.html'}
 # - {name: 'Sample Posts', folder: 'pages', file: 'sample-posts.html'}
 # - {name: 'Documentation', folder: 'pages', file: 'documentation.html'}
-- {name: 'About', folder: 'pages', file: 'about.html'}
-- {name: 'Contact', folder: 'pages', file: 'contact.html'}
+# - {name: 'About', folder: 'pages', file: 'about.html'}
+- {name: 'Contact', folder: '_pages', file: 'aboutus.md'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
