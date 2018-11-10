@@ -2,9 +2,9 @@
 layout: page
 ---
 
-{% for post in site.posts %}
-  <a href="{{ site.github.url }}{{ page.url }}">
-      <h2><span>{{ post.title | inspect }}</span></h2>
+{% for webpage in site.webpages %}
+  <a href="{{ site.github.url }}{{ webpage.url }}">
+      <h2><span>{{ webpage.title | inspect }}</span></h2>
     </div>
   </a>
 {% endfor %}
