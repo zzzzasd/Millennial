@@ -1,11 +1,15 @@
 ---
 layout: page
-title: Sculptures
 ---
 {% for post in site.categories.sculpture %}
-  <a href="{{ site.github.url }}{{ post.url }}">
-    <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}{{ post.image }})"{% endif %}>
+<div class="column is-8 is-offset-2">
+<h1>Sculptures</h1>
+<a href="{{ site.github.url }}{{ post.url }}">
+  <div class=" home-banner" {% if post.image %}style="background-image:url({{ site.github.url }}{{ post.image }})"{% endif %}>
+    <div class="container" >
       <h2><span>{{ post.title }}</span></h2>
     </div>
-  </a>
+  </div>
+</a>
+</div>
 {% endfor %}

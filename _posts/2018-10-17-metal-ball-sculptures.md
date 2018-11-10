@@ -2,6 +2,7 @@
 layout: post
 image: /uploads/image36.jpg
 title: Metal Ball Sculptures
+categories: sculpture
 ---
 Size : 4500(L) x 1500(W)
 

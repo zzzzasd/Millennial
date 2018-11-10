@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 image: /uploads/garylim.jpg
 title: About Us
 ---
