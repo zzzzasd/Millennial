@@ -13,6 +13,15 @@ sass:
   sass_dir: assets/css
   style: :nested
 
+# Collections
+collections:
+  webpages:
+    output: true
+
+  posts:
+    output: true
+
+
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "IGL Design"
 description:	       "a Jekyll theme for running a blog or publication"
