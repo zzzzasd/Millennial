@@ -1,7 +1,7 @@
 ---
 layout: page
 image: /uploads/garylim.jpg
-title: About Us
+title: About Me
 ---
 ### IGLDESIGN is an art and design studio lead by Gary Lim with his team of residence artists and creative partners.
 
