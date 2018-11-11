@@ -1,11 +1,16 @@
 ---
 layout: page
-title: Paintings
+
 ---
-{% for post in site.categories.panting %}
-  <a href="{{ site.github.url }}{{ post.url }}">
-    <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}{{ post.image }})"{% endif %}>
+{% for post in site.categories.painting %}
+<div>
+<h1>Paintings</h1>
+<a href="{{ site.github.url }}{{ post.url }}">
+  <div class=" home-banner" {% if post.image %}style="background-image:url({{ site.github.url }}{{ post.image }})"{% endif %}>
+    <div class="container" >
       <h2><span>{{ post.title }}</span></h2>
     </div>
-  </a>
+  </div>
+</a>
+</div>
 {% endfor %}

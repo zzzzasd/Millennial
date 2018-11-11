@@ -2,7 +2,7 @@
 layout: page
 ---
 {% for post in site.categories.sculpture %}
-<div class="column is-8 is-offset-2">
+<div>
 <h1>Sculptures</h1>
 <a href="{{ site.github.url }}{{ post.url }}">
   <div class=" home-banner" {% if post.image %}style="background-image:url({{ site.github.url }}{{ post.image }})"{% endif %}>

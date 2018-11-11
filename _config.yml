@@ -24,7 +24,7 @@ collections:
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "IGL Design"
-description:	       "a Jekyll theme for running a blog or publication"
+description:	       "Welcome to my Personal Portfolio"
 author:              "Gary Lim"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
