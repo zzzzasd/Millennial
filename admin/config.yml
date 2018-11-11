@@ -17,6 +17,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Cover Image", name: "image", widget: "image", required: false}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Category", name:"categories", widget: select, options: ["sculpture", "painting"] }
       - {label: "Gallery",name: "galleryImages",widget: "list",
           field: {label: Image, name: image, widget: image}}
     meta: # Meta data fields. Just like fields, but without any preview element
